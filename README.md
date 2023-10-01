@@ -1,2 +1,2 @@
-# malayaheflin.github.io
-experimenting w/ custom html &amp; css portfolio website!
+# malaya heflin's portfolio
+my custom html & css website! used to showcase projects, resume, experience, etc
