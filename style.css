@@ -9,7 +9,7 @@
     width: 100%;
 }
 .body {
-    background-color: #C9D0EE;
+    background-color: #dbdbdb;
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 50px;
@@ -52,6 +52,21 @@ h1 {
     max-width: 45%;
     max-height: 50%;
     
+}
+.leftcol {
+    padding-left: 40px;
+    float: left;
+    width: 35%;
+    background-color: #696969;
+    height: 100vh;
+}
+.rightcol {
+    padding: 20px;
+    float: left;
+    width: 65%;
+    background-color: #a3a3a3;
+    height: 100vh;
+    text-align: center;
 }
 
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
