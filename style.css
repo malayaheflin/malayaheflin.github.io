@@ -55,6 +55,7 @@ h1 {
 }
 .leftcol {
     padding-left: 40px;
+    padding-right: 10px;
     float: left;
     width: 35%;
     background-color: #696969;
@@ -67,6 +68,17 @@ h1 {
     background-color: #a3a3a3;
     height: 100vh;
     text-align: center;
+}
+.pic {
+    padding: 10px;
+}
+.media {
+    text-align: center;
+}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
