@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CULT</title>
+    <title>crimson premonition</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../style.css">
@@ -14,23 +14,59 @@
 <body>
   <!-- Header -->
   <header id="header">
-    <h1><b>CULT</b></h1>
+    <h1><b>Crimson Premonition</b></h1>
   </header>
 
   <div class="body">
     <br>
-    <h3><b>December 2023 (in progress)</b></h3>
+    <h3><b>December 2023</b></h3>
     <h3><b>team:</b> Malaya Heflin, Riya Kanani, Alexandra Maric, Fiza Mulla, Aldrin Duran</h3>
-    <h3><b>tools:</b> Unity, C#, MediaPipe</h3>
+    <h3><b>tools:</b> Unity, C#, Google MediaPipe</h3>
 
     <p>
-        You're a new hire at an emerging company, about to join your first stand-up call. But, something's
-        off...
-        <br>
-        Interactive multiplayer experience where players must work together to find clues and uncover a mystery.
+      Congratulations! You're a new hire at an emerging company, about to join your first stand-up call. But, something
+      seems to be off...
+      <br>
+      "Crimson Premonition" is a short multiplayer game in which 2 players have to work together to solve a series of
+      clues. These clues are implemented with gestural recognition (tracking body movement/position via webcam), particle systems,
+      and audio/image manipulation. It was publicly exhibited on December 8th, 2023, at the Brendan Iribe Center,
+      as part of the <a href="https://www.youtube.com/watch?v=HmTQimorBAE" target="_blank" class="w3-hover-opacity">
+        <u>Immersive Media Design End of Year Show 2023.</u></a>
     </p>
     <br>
 
+    <div class="media">
+      <div class="row">
+        <div>
+          <img class="pic" src="./../media/crimsonMedia/poster.png" style="width:300px;height:533px;">
+          <h6>project poster!</h6>
+        </div>
+        <div>
+          <iframe width="672" height="378" src="https://www.youtube.com/embed/puawcHOwrrM?si=7wV1XBjXW1ShnR9W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <h6>quick play-through</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <img class="pic" src="./../media/crimsonMedia/showcase.jpg" style="width:400px;height:533px;">
+          <h6>participants working together at showcase</h6>
+        </div>
+        <div>
+          <img class="pic" src="./../media/crimsonMedia/team.jpg" style="width:500px;height:375px;">
+          <h6>the team :)</h6>
+        </div>
+      </div>
+    </div>
+
+    <h2><b>✰ my specific contributions</b></h2>
+    <ul>
+      <li>utilizing Google MediaPipe and C# script to track user's fingers, then using
+        position data to alter characteristics of an audio output
+      </li>
+      <li>designing and implementing "Zoom"-like interface with hand-drawn buttons and built-in Unity UI kit</li>
+      <li>working with team to implement multiplayer features via Tailscale and Unity networking
+      </li>
+    </ul>
   </div>
 </body>
 </html>
