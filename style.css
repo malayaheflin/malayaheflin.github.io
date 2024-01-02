@@ -1,8 +1,10 @@
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.art {
+    background-color: #dbdbdb;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    text-align: center;
 }
 .image {
     position: relative;
@@ -78,6 +80,13 @@ h1 {
 .row {
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+.artrow {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    column-gap: 20px;
     justify-content: center;
 }
 
