@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>earthkeeper</title>
+    <title>the earthkeeper</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../style.css">
@@ -14,26 +14,27 @@
 <body>
   <!-- Header -->
   <header id="header">
-    <h1><b>Earthkeeper</b></h1>
+    <h1><b>The Earthkeeper</b></h1>
   </header>
 
   <div class="body">
     <br>
-    <h3><b>in progress - may 2024 (capstone project)</b></h3>
+    <h3><b>may 2024</b></h3>
     <h3><b>team:</b> Malaya Heflin, Zoe Poppert, Elaine Gao</h3>
-    <h3><b>tools:</b> TouchDesigner, LiDAR sensing, projection</h3>
+    <h3><b>tools:</b> TouchDesigner, Kinect Azure, projection</h3>
 
-    <p>
-      "Earthkeeper" is an immersive projection art installation that invites users to step into the role of a nature god. By utilizing motion tracking technology and software,
-      we will allow users to manipulate the endangered environment projected before them. Through their touch and motion, they will temporarily transition the dark and dreary scenes, like dead forests, animal ghosts, and still waters, into the vibrant places they once were, until the magic fades.
-      <br><br>
-      Using projection, wherever a person puts their hands, greenery will “sprout” outwards from where the hand was placed. The greenery will continue to grow as long as the hand stays still, but as soon as the hand is picked up, the plants will “die,” or crumble and disappear.
-      If a certain percentage of the environment is regrown, the next interaction will spark a fire that will burn everything down and reset the experience, showing
-      the infinite cycle of death and regrowth. The focus is to create a simple concept interactive projection that leaves a lasting impression.
+    <p>“The Earthkeeper” is an interactive projection installation where users are invited
+      to use their movement to temporarily grow a desolate forest.
+      We hope to use our piece to demonstrate the simple beauty of regrowth. Through
+      hand-drawn animations, TouchDesigner, and a Kinect sensor, users can manipulate
+      the environment projected before them through their own motion.<br>
+      Our piece was exhibited to the general public on May 9th 2024 at the AV Williams Building, as part of the Immersive Media Design Capstone Fair.
     </p>
     <br>
 
     <div class="media">
+      <iframe width="840" height="472" src="https://www.youtube.com/embed/3cQ9TqEU_uM?si=OzgMUKHqhAEboBFW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
       <div class="row">
         <div>
           <img class="pic" src="./../media/earthkeeperMedia/mononoke.png" style="width:520px;height:1526px;">
@@ -41,15 +42,24 @@
         </div>
         <div>
           <img class="pic" src="./../media/earthkeeperMedia/install.jpg" style="width:660px;height:372px;">
-          <h6>concept art for physical installation</h6>
-          <img class="pic" src="./../media/earthkeeperMedia/growth1.gif" style="width:640px;height:427px;">
-          <h6>testing hand-drawn growth animation</h6>
-          <img class="pic" src="./../media/earthkeeperMedia/tdProgress.png" style="width:660px;height:488px;">
-        <h6>in-progress touch designer capture</h6>
+          <h6>install concept</h6>
         </div>
       </div>
     
     </div>
+
+    <h2><b>✰ my specific contributions</b></h2>
+    <ul>
+      <li>implementing motion detection and animation trigger within TouchDesigner
+        by processing Kinect Azure data
+      </li>
+      <li>implementing interactive flower particle system</li>
+      <li>designing and creating project poster and participant instructions in Adobe Photoshop</li>
+      <li>custom HTML/CSS website</li>
+      <li>assisted team with physical install, including creating run-of-show document, setting up projection and sound,
+        and adding other immersive elements (i.e. vines)
+      </li>
+    </ul>
   </div>
 </body>
 </html>
