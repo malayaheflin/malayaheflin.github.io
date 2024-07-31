@@ -14,32 +14,29 @@ img {
     height: auto;
 }
 
-#row {
-    height: 100%
+.two-cols {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 1fr 1fr;
 }
 @media only screen and (max-width: 768px) {
-    [class*="row"] {
-      display: block;
-    }
+  [class*="two-cols"] {
+    grid-template-columns: 1fr;
+  }
 }
-  
+
 .col {
-    float: left;
     max-height: 100vh;
     overflow-y: scroll;
     scrollbar-width: none;
     -ms-overflow-style: none;
-    width: 50%;
     height: 100%;
-}
-.col::-webkit-scrollbar {
-    width: 0;
 }
 /* for mobile */
 @media only screen and (max-width: 768px) {
     [class*="col"] {
-      width: 100%;
-      overflow-y: auto;
+      overflow-y: display;
+      max-height: none;
     }
 }
 
