@@ -16,8 +16,9 @@ img {
 
 .two-cols {
   display: grid;
-  gap: 8px;
+  gap: 70px;
   grid-template-columns: 1fr 1fr;
+
 }
 @media only screen and (max-width: 768px) {
   [class*="two-cols"] {
@@ -47,13 +48,22 @@ img {
 .name {
     font-size: 35px;
     color: #f283d1;
-
 }
 .intro {
     font-size: 35px;
 }
 .piece-cap{
     font-weight: bold;
+}
+
+.name {
+  font-size: 55px;
+  color: #f283d1;
+}
+
+.descrip-title {
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .chakra-petch-light {
